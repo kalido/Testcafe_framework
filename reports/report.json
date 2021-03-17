@@ -1,0 +1,115 @@
+{
+  "startTime": "2021-03-17T01:04:32.119Z",
+  "endTime": "2021-03-17T01:05:08.155Z",
+  "userAgents": [
+    "Chrome 89.0.4389.90 / macOS 10.15.7"
+  ],
+  "passed": 11,
+  "total": 11,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Login feature testing",
+      "path": "/Users/kalidmulgado/Desktop/swag_automation/page_om/tests/Login.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "Login_with_a_VALID_user",
+          "meta": {},
+          "errs": [],
+          "durationMs": 4539,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Login_with_a_INVALID_user",
+          "meta": {},
+          "errs": [],
+          "durationMs": 1915,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Logout_from_products_page",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2992,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Navigate_to_the_shopping_cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2237,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Add_a_single_item_to_the_shopping_cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2422,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Add_multiple_items_to_the_shopping_cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3508,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Continue_with_missing_mail_information",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2918,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Fill_user_s_information",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3805,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Final_order_items",
+          "meta": {},
+          "errs": [],
+          "durationMs": 4250,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "Complete_a_purchase",
+          "meta": {},
+          "errs": [],
+          "durationMs": 4194,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Optional feature testing",
+      "path": "/Users/kalidmulgado/Desktop/swag_automation/page_om/tests/optional.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "Login_using_a_Role",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3130,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

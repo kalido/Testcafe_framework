@@ -1,0 +1,23 @@
+{
+  "name": "swaglabs",
+  "version": "1.0.0",
+  "description": "Wizeline_certification",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "testcafe chrome ./page_om/tests",
+    "test-chrome-hl": "testcafe chrome:headless ./page_om/tests",
+    "test:report-json": "testcafe chrome ./page_om/tests/ --reporter json:reports/report.json",
+    "test:report-html": "testcafe chrome ./page_om/tests/ --reporter html:reports/report.html",
+    "test-firefox": "testcafe -c 3 firefox ./page_om/tests",
+    "test-safari": "testcafe -c 3 safari ./page_om/tests",
+    "multi-browser-test": "testcafe chrome,firefox,safari ./page_om/tests"
+  },
+  "author": "Kalid Mulgado",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-html-testrail": "^3.1.7",
+    "testcafe-reporter-json": "^2.2.0"
+  }
+}
